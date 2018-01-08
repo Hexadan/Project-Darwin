@@ -1,0 +1,43 @@
+/* Body */
+
+body
+{
+  font-family: Roboto;
+  background-color: #FAFAFA;
+  padding: 0;
+  margin: 0;
+}
+
+.btn
+{
+  height:26px;
+  border:0;
+  color:#FFF;
+  background-color:#03A9F4;
+  border-radius:2px;
+  padding:0 16px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  cursor: pointer;
+}
+
+.container
+{
+  display: grid;
+  grid-template-columns: 400px 1fr 400px;
+  grid-template-areas:
+    ". content .";
+}
+
+.content
+{
+  grid-area: content;
+}
+
+.navigation
+{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  height: 100px;
+}
